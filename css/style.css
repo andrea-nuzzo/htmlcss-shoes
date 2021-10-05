@@ -1,10 +1,12 @@
+
+/* <--- COMMONS ---> */
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-
+/* <--- HEADER ---> */
 
 .viewport{
     width: 100%;
@@ -16,17 +18,16 @@ nav {
     top: 0;
     right: 0;
     border: 3px solid #73AD21;
+    z-index: 3;
   }
 
 
 ul{
     font-weight: bold;
     font-size: 10px;
-    
 }
 
 li{
-    
     list-style-type: none;
     padding: 50px;
     border: 5px solid black;
@@ -38,19 +39,38 @@ li a {
     background-color: white;
     border-radius: 50%;
     padding: 15px;
-    
+}
+
+/* <--- MAIN ---> */
+
+img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.description-shoes{
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-transform: uppercase;
 }
 
 
 
 #first-shoes{
     background-color: red;
+    position: relative;
 }
 
 #second-shoes{
     background-color: green;
+    position: relative;
 }
 
 #third-shoes{
     background-color: yellow;
+    position: relative;
 }

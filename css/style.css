@@ -3,3 +3,23 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.viewport{
+    width: 100%;
+    height: 100vh;
+}
+
+
+
+
+#first-shoes{
+    background-color: red;
+}
+
+#second-shoes{
+    background-color: green;
+}
+
+#third-shoes{
+    background-color: yellow;
+}
